@@ -20,7 +20,7 @@ def createLocal(file_name):
 def createGitRepo(file_name): 
 
 	try: 
-		token = "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"
+		token = "" 
 		github_auth = Github(token) 
 		user =  github_auth.get_user()
 		print(f"{user} initialized") 
